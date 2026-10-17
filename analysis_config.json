@@ -1,0 +1,12 @@
+{
+  "csv_member": "housingandsanitation_10%_20221011d.csv",
+  "expected_zip_sha256": "3f44bf22caaef3b9809b10c104fc7b68f051e1cef43a125ca3445681e77f880f",
+  "primary_output_dir": "robust_results",
+  "secondary_output_dir": "waste_ml_results",
+  "outer_seeds": [2026, 3031, 4049],
+  "outer_folds": 4,
+  "training_cap": 200000,
+  "bootstrap_replicates": 300,
+  "importance_evaluation_n": 30000,
+  "importance_permutations": 5
+}
