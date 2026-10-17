@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Restricted Ghana Statistical Service data
+housingandsanitation_*.zip
+housingandsanitation_*.csv
+10%_2021PHC_*.zip
+
+# Household-level predictions
+primary_oof_predictions.csv
+pred_*.csv
+
+# Generated analysis directories
+outputs/
+robust_results/
+waste_ml_results/
