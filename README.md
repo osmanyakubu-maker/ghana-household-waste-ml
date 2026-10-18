@@ -14,13 +14,13 @@ The runner validates the source checksum, executes both analyses and calls verif
 
     python scripts/verify_results.py --primary-dir aggregate_results/primary --secondary-dir aggregate_results/secondary
 
-Publication figures are supplied as 600-dpi, LZW-compressed RGB TIFF files. Captions remain in the manuscript rather than being embedded in the images:
+Publication figures are supplied as 600-dpi, LZW-compressed RGB TIFF files. Captions are in the main manuscript for Figures 1–3 and in the separate supplementary document for Supplementary Figures S1–S3; captions are not embedded in the images:
 
 - `Figure_1_regional_collection_prevalence.tiff`
 - `Figure_2_calibration_curve.tiff`
 - `Figure_3_regional_transfer_and_learning_curve.tiff` (panels a-b)
-- `Figure_4_permutation_importance.tiff`
-- `Figure_5_multiclass_route_performance.tiff`
-- `Figure_6_audit_budget_and_regional_calibration.tiff` (panels a-b)
+- `Figure_4_permutation_importance.tiff` (Supplementary Figure S1)
+- `Figure_5_multiclass_route_performance.tiff` (Supplementary Figure S2)
+- `Figure_6_audit_budget_and_regional_calibration.tiff` (Supplementary Figure S3; panels a-b)
 
 The verifier also checks the sample and district totals recoverable from the outer folds, reported uncertainty limits, comparator differences, regional performance ranges, audit-budget utility, subgroup results and the secondary ten-route macro-F1 result.
